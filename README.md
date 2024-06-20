@@ -1,6 +1,6 @@
 # Название проекта
-[//]: #![Badge](https://github.com/belenkiy-lab/template/actions/workflows/main.yml/badge.svg)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/belenkiy-lab/template/main.yml?style=for-the-badge&logo=github&label=template)
+[//]: #![Badge](https://github.com/belenkiy-lab/netology/actions/workflows/main.yml/badge.svg)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/belenkiy-lab/netology/main.yml?style=for-the-badge&logo=github&label=netology)
 ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m794837789-3a092aab621975bb2f46915d?style=for-the-badge&logo=coffeescriptv)
 ![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m794837789-3a092aab621975bb2f46915d?style=for-the-badge&label=uptime%207%20days)
 
