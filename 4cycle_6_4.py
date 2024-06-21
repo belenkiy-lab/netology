@@ -1,21 +1,9 @@
 def solve(cook_book: list, person: int):
     result = []
     for dish in cook_book:
-        ingredients_str = ''
-        ingredients_str += f'{dish[0]}:'
-        for ingredients in dish[1::]:
-            i = 0
-            for prodact in ingredients:
-                i += 1
-                prodact.insert(1, str(prodact[1]*person))
-                prodact.pop(2)
-                if i == len(ingredients):
-                    ingredients_str = ingredients_str + (f" {' '.join(prodact)}")
-                else:
-                    ingredients_str = ingredients_str + (f" {' '.join(prodact)},")
-        result.append(ingredients_str)
-
-
+        ingredients = ", ".join([f"{ingredient[0]} {ingredient[1] * person} {ingredient[2]}" for ingredient in dish[1]])
+        dish_recipe = f"{dish[0]}: {ingredients}"
+        result.append(dish_recipe)
     return result
 
 if __name__ == '__main__':
